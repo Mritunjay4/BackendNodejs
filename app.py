@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 # Load environment variables from .env file
 load_dotenv()
 
-connection_string = "Driver={ODBC Driver 17 for SQL Server};Server=tcp:dockerdbserverm.database.windows.net,1433;Database=dockerdb;Uid=server;Pwd={Password@1234};Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;"
+connection_string = "Driver={ODBC Driver 17 for SQL Server};Server=tcp:serverdbtg.database.windows.net,1433;Database=dbtodo;Uid=server;Pwd={Password@1234};Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;"
 
 app = FastAPI()
 
